@@ -8,7 +8,7 @@
     <title>Login</title>
 </head>
 <body>
-    <h1>Iniciar sessió de l'usuari</h1>
+    <h1>{{$resultado}}</h1>
     <form method="POST" action="../view/user.php">
         <div >
             <label>Email</label><br>
@@ -25,7 +25,7 @@
             </label>
         </div>
         <button type="submit" name="send">Enviar</button><br>
-        <a href="altaUsuari.html">Crea usuari</a>
+        <a href="http://localhost:8000/joana/signup/crear/usuari/nou">Crea usuari</a>
     </form>
 </body>
 </html>

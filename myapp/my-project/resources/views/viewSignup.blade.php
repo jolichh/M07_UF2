@@ -8,9 +8,8 @@
     <title>Alta usuari</title>
 </head>
 <body>
-    <a href="../../joanalin/altaUsuari.html">Enllaç a pàgina de la pràctica P3</a>
     <form method="POST" action="../crear_user/altaUsuari.php">
-        <h1>Crea un usuari</h1>
+        <h1>{{$resultado}}</h1>
         <div >
             <label>ID</label><br>
             <input type="number" name="id" required>
@@ -47,6 +46,6 @@
         </div>
         <button type="submit" name="send">Enviar</button>
     </form>
-    <a href="login.html">Iniciar sessió</a>
+    <a href="http://localhost:8000/joana/signin/iniciar/sessio/de/usuari">Iniciar sessió</a>
 </body>
 </html>
