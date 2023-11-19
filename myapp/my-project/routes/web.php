@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SignController; //Import controller
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +13,14 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
 Route::get('/', function () {
-    return view('welcome');
+        return view('welcome');
+});
+
+Route::prefix('joana')->group(function() {
+    
+    //nomalumna es prefix
+    Route::get('/signin/{dato1}/{dato2}/{dato3}/{dato4}', [SignController::class, 'signin']);
+    Route::get('/signup/{dato1}/{dato2}/{dato3}', [SignController::class, 'signup']);
+
 });

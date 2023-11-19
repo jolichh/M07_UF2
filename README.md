@@ -18,3 +18,5 @@
 
 **RECOMANACIÓ**
 Primer feu l’exercici 1, verifiqueu que funciona i després feu l’ampliació (exercici 2)
+
+[Video Joana](https://drive.google.com/file/d/1q2pLmu_QDDGKkiJw-JGSpVqZue7rE__k/view?usp=sharing)
