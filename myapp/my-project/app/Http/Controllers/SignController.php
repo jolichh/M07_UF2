@@ -14,4 +14,11 @@ class SignController extends Controller
         $resultado = $dato1." ".$dato2." ".$dato3;
         return view('viewSignup')->with('resultado',$resultado);
     }
+
+    public function hola( Request $request, $persona='') {
+        dd($request); //dd es como un var_dump() para ver el contenido
+        $textoFinal = 'Hola, ';
+        $textoFinal .= ($persona == '')?'mundo':$persona;
+        return view('mensaje')->with (['texto'=>$textoFinal]);
+    }
 }

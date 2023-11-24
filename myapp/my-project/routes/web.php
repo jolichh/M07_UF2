@@ -24,3 +24,4 @@ Route::prefix('joana')->group(function() {
     Route::get('/signup/{dato1}/{dato2}/{dato3}', [SignController::class, 'signup']);
 
 });
+
