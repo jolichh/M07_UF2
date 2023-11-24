@@ -21,4 +21,11 @@ class SignController extends Controller
         $textoFinal .= ($persona == '')?'mundo':$persona;
         return view('mensaje')->with (['texto'=>$textoFinal]);
     }
+
+    public function signin2() {        
+        return view('viewSignin');
+    }
+    public function signup2() {
+        return view('viewSignup');
+    }
 }

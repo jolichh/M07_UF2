@@ -9,7 +9,7 @@
 </head>
 <body>
     <form method="POST" action="../crear_user/altaUsuari.php">
-        <h1>{{$resultado}}</h1>
+        <h1>Registre d'usuari</h1>
         <div >
             <label>ID</label><br>
             <input type="number" name="id" required>
@@ -46,6 +46,6 @@
         </div>
         <button type="submit" name="send">Enviar</button>
     </form>
-    <a href="http://localhost:8000/joana/signin/iniciar/sessio/de/usuari">Iniciar sessió</a>
+    <a href="{{ route('signin2') }}">Iniciar sessió</a>
 </body>
 </html>

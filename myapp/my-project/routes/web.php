@@ -17,11 +17,13 @@ Route::get('/', function () {
         return view('welcome');
 });
 
-Route::prefix('joana')->group(function() {
-    
+Route::prefix('joana')->group(function() {    
     //nomalumna es prefix
     Route::get('/signin/{dato1}/{dato2}/{dato3}/{dato4}', [SignController::class, 'signin']);
     Route::get('/signup/{dato1}/{dato2}/{dato3}', [SignController::class, 'signup']);
-
 });
 
+Route::prefix('joana2')->group(function(){
+    Route::get('/signin2', [SignController::class, 'signin2'])->name('signin2');
+    Route::get('/signup2', [SignController::class, 'signup2'])->name('signup2');
+});

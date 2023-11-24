@@ -11,4 +11,8 @@ class AdminController extends Controller
     public function centres() {
         return view('Admin.admin')->with (['result'=>'Hola buenas administrador!']);
     }
+    public function usuaris(Request $request) {
+        $name = $request->input('send');
+        return view('Admin.users')->with(['result'=> $name]);
+    }
 }

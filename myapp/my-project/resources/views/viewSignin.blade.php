@@ -8,8 +8,9 @@
     <title>Login</title>
 </head>
 <body>
-    <h1>{{$resultado}}</h1>
-    <form method="POST" action="../view/user.php">
+    <h1>Inici de sessió</h1>
+    <form method="POST" action="{{ route('usuaris') }}">
+        @csrf
         <div >
             <label>Email</label><br>
             <input type="text" name="email">
@@ -25,7 +26,7 @@
             </label>
         </div>
         <button type="submit" name="send">Enviar</button><br>
-        <a href="http://localhost:8000/joana/signup/crear/usuari/nou">Crea usuari</a>
+        <a href="{{ route('signup2') }}">Crea usuari</a>
     </form>
 </body>
 </html>
