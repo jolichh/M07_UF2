@@ -20,3 +20,7 @@
 Primer feu l’exercici 1, verifiqueu que funciona i després feu l’ampliació (exercici 2)
 
 [Video Joana](https://drive.google.com/file/d/1q2pLmu_QDDGKkiJw-JGSpVqZue7rE__k/view?usp=sharing)
+
+# Pràctica 2: SIGNIN + SIGNUP 2 (Àmbit, trucades i noms de rutes )
+
+[Video Joana](https://drive.google.com/file/d/16AAxsrC-7VL7IyQ2-zNucbEZXhQHfaHs/view?usp=sharing)
