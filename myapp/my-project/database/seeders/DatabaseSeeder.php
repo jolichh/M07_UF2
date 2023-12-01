@@ -20,5 +20,6 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         Centre::factory(30)->create();  //numero d'elements que es vol insertar
+        
     }
 }
