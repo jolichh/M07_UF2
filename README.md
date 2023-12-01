@@ -20,3 +20,20 @@
 Primer feu l’exercici 1, verifiqueu que funciona i després feu l’ampliació (exercici 2)
 
 [Video Joana](https://drive.google.com/file/d/1q2pLmu_QDDGKkiJw-JGSpVqZue7rE__k/view?usp=sharing)
+
+
+# Pràctica 3: Preparació BBDD
+## Activitat
+1. Caldrà seguir el pas a pas de la diapositiva per a crear tot el paquet de funcionament del projecte de Laravel 10 i poder inserir dades fake a la taula (centres) de la BBDD de PHPMYADMIN.
+
+Resum:
+- Crear la Migration.
+- Associar la Migration.
+- Omplir dades amb Model i Factory.
+- Utilitzar el Seeder. -> *per omplir de dades fake la BBDD. A la següent pràctica això no es farà.*
+
+Aquestes passes us han ajudat a crear una taula, amb dades **fake**, a la BBDD
+
+2. eguir les passes necessàries anteriors per a crear les taules, amb dades Fake, de:
+- Professorat
+- Alumnat
