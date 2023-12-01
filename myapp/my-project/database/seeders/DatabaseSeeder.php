@@ -5,6 +5,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Centre;
+use App\Models\Professorat;
 
 class DatabaseSeeder extends Seeder
 {
@@ -20,6 +21,6 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         Centre::factory(30)->create();  //numero d'elements que es vol insertar
-        
+        Professorat::factory(5)->create(); //crea 5
     }
 }
