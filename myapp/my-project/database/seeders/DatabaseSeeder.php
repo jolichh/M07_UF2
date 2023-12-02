@@ -21,8 +21,8 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-        Centre::factory(30)->create();  //numero d'elements que es vol insertar
+        Centre::factory(4)->create();  //numero d'elements que es vol insertar
         Professorat::factory(5)->create(); //crea 5
-        Alumnat::factory(5)->create();
+        Alumnat::factory(3)->create();
     }
 }

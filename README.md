@@ -37,3 +37,5 @@ Aquestes passes us han ajudat a crear una taula, amb dades **fake**, a la BBDD
 2. eguir les passes necessàries anteriors per a crear les taules, amb dades Fake, de:
 - Professorat
 - Alumnat
+
+[Video Joana](https://drive.google.com/file/d/1-XXXN7brEWZ3yT4l_XI7jV-OZlvK_IKv/view?usp=sharing)
