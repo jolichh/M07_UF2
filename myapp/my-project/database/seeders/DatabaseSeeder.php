@@ -6,6 +6,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use App\Models\Centre;
 use App\Models\Professorat;
+use App\Models\Alumnat;
 
 class DatabaseSeeder extends Seeder
 {
@@ -22,5 +23,6 @@ class DatabaseSeeder extends Seeder
         // ]);
         Centre::factory(30)->create();  //numero d'elements que es vol insertar
         Professorat::factory(5)->create(); //crea 5
+        Alumnat::factory(5)->create();
     }
 }
